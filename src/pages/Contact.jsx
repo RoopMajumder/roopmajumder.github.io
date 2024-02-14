@@ -40,7 +40,7 @@ const Contact = (props) => {
             <form>
                 <input type="text" placeholder='Name...' value={name} onChange={(e) => {setName(e.target.value)}} required/>
                 <input type="email" placeholder='Email...' value={email} onChange={(e) => {setEmail(e.target.value)}} required/>
-                <textarea cols="50" rows="10" placeholder='Enter your Message...' value={message} onChange={(e) => {setMessage(e.target.value)}} style={{width: "424px", height: "236px", resize: "none"}} required></textarea>
+                <textarea cols="50" rows="10" placeholder='Enter your Message...' value={message} onChange={(e) => {setMessage(e.target.value)}} style={{resize: "none"}} required></textarea>
                 <button type="submit" className='btn' onClick={handleSubmit}>Send</button>
             </form>
             <div className="alert">
