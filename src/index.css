@@ -754,12 +754,25 @@ body {
 
 @media screen and (min-width: 0) and (max-width: 780px) {
 
+  .contact {
+    margin-bottom: 20px;
+  }
+
   .contact .mail {
     font-size: 13px;
   }
 
   .contact .contactCont .right form {
     width: 300px !important;
+  }
+
+  .contact .contactCont .right {
+    height: calc(fit-content+20px);
+    margin-bottom: 10px;
+  }
+
+  .contact .contactCont .right form textarea {
+    width: 260px !important;
   }
 }
 
